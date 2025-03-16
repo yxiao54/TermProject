@@ -10,7 +10,7 @@ def get_data(name):
         
     
     elif name =='tatqa':
-        with open('tatqa_dataset_test_gold.json', 'r') as file:
+        with open('./data/tatqa_dataset_test_gold.json', 'r') as file:
             dataset = json.load(file)
             all_data=[]
             for item in dataset:
