@@ -1,10 +1,10 @@
 # Term Project
 Code for Term project of CSE576 NLP
 ## Source code
-inference.py Main function that design prompt engineering<br/>
-dataloader.py Prepare the dataset as a list of examples<br/>
-metric.py Define functions to calculate accurracy or F1 score.<br/>
-utils.py Utils for metric.py<br/>
+inference.py: Main function that design prompt engineering<br/>
+dataloader.py: Prepare the dataset as a list of examples<br/>
+metric.py: Define functions to calculate accurracy or F1 score.<br/>
+utils.py: Utils for metric.py<br/>
 
 
 
