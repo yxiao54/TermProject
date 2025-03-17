@@ -1,5 +1,5 @@
 # Term Project
-Code for Human Heterogeneity Invariant Stress Sensing 
+Code for Term project of CSE576 NLP
 ## Source code
 inference.py Main function that design prompt engineering<br/>
 dataloader.py Prepare the dataset as a list of examples<br/>
