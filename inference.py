@@ -55,7 +55,7 @@ def evaluate(dataset,dataset_name,model_name):
     
 
 if __name__ == "__main__": 
-    dataset_name='tatqa'#finqa,tatqa
+    dataset_name='finqa'#finqa,tatqa
     model_name='mistral'
     dataset=get_data(name=dataset_name)
     evaluate(dataset, dataset_name,model_name)
