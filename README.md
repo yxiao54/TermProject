@@ -6,7 +6,9 @@ dataloader.py: Prepare the dataset as a list of examples<br/>
 metric.py: Define functions to calculate accurracy or F1 score.<br/>
 utils.py: Utils for metric.py<br/>
 
-
+## Datasets
+FinQA dataset
+TATQA dataset
 
 ## How to Run
 First install ollama and start mistral
