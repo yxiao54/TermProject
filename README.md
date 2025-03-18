@@ -7,7 +7,7 @@ metric.py: Define functions to calculate accurracy or F1 score.<br/>
 utils.py: Utils for metric.py<br/>
 
 ## Datasets
-FinQA dataset
+FinQA dataset<br/>
 TATQA dataset
 
 ## How to Run
