@@ -24,9 +24,9 @@ def evaluate(dataset,dataset_name,model_name):
     all_result=[]
     all_example=[]
     for example in tqdm(dataset):
-        
+        print(example)
         full_prompt = create_reader_request_processed(example)
-        
+      
         result = ollama.generate(
                     model=model_name,  # Use an appropriate model
                     prompt=full_prompt,
@@ -37,10 +37,11 @@ def evaluate(dataset,dataset_name,model_name):
                 }
             )
         
-                
+       
+        
         all_result.append(result)
         all_example.append(example)
-        
+
     
     if dataset_name=='finqa':
         acc=get_accuracy_finqa(all_result,all_example)
@@ -55,8 +56,9 @@ def evaluate(dataset,dataset_name,model_name):
     
 
 if __name__ == "__main__": 
-    dataset_name='finqa'#finqa,tatqa
+    dataset_name='mmqa'#finqa,tatqa,mmqa
     model_name='mistral'
+  
     dataset=get_data(name=dataset_name)
     evaluate(dataset, dataset_name,model_name)
     
