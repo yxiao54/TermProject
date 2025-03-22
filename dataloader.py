@@ -12,4 +12,8 @@ def get_data(name):
     elif name =='tatqa':
         with open('./data/tatqa_dev.json') as f:
             dataset = json.load(f)
+    elif name =='mmqa':
+        with open('./data/mmqa_dev.json') as f:
+            dataset = json.load(f)
+            
     return dataset
