@@ -6,11 +6,6 @@ from collections import Counter
 import ollama
 from metric import *
 from dataloader import get_data
-from mmqa_utils import (TEXT_SINGLE_HOP_QUESTION_TYPES, TEXT_AS_FIRST_HOP_QUESTION_TYPES,
-                          TEXT_AS_SECOND_HOP_QUESTION_TYPES, TABLE_SINGLE_HOP_QUESTION_TYPES,
-                          TABLE_AS_FIRST_HOP_QUESTION_TYPES, TABLE_AS_SECOND_HOP_QUESTION_TYPES,
-                          IMAGE_SINGLE_HOP_QUESTION_TYPES, IMAGE_AS_FIRST_HOP_QUESTION_TYPES,
-                          IMAGE_AS_SECOND_HOP_QUESTION_TYPES)
 
 
 def create_full_prompt_finqa_tatqa(example: Dict[str, Any]):
