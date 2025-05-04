@@ -1,0 +1,12 @@
+data_paths:
+  MMQA_dev: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_dev.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_dev.jsonl"
+  MMQA_train: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_train.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_train.jsonl"
+  MMQA_test: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_test.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_test.jsonl"
+
+  MMQA_images: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_images.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_images.jsonl"
+  MMQA_tables: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_tables.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_tables.jsonl"
+  MMQA_texts: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\MMQA_texts.jsonl\\multimodalqa_final_dataset_pipeline_camera_ready_MMQA_texts.jsonl"
+
+root_path: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Datasets\\MMQA\\multimodalqa\\dataset\\final_dataset_images\\final_dataset_images\\"
+intermediate_results_path : "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Code\\results\\intermediate_results_k10\\"
+final_results_path: "E:\\ASU PhD\\Coursework\\CSE576 Natural Language Processing\\FinalProject\\Code\\results\\"
