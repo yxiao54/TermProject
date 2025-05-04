@@ -1,15 +1,15 @@
 # Term Project
 Code for Term project of CSE576 NLP
 ## Source code
-- `ImageSelection.py` Code for second step, top-k image selection.<br/>
-- `answerGeneration.py` Code for last step, generate the final answer.<br/>
-- `config.yaml` Store the path to data location.py<br/>
-- `datagen.py` Code for dataloader<br/>
-- `main.py` Main function responsible forrun the pipeline.<br/>
-- `metric.py`  Define functions to calculate accurracy.<br/>
-- `mmqa_utils.py` and`utils.py` Utils for metric.py<br/>
-- `openai_metrics.ipynb` Code to convert the final answer to clean format.<br/>
-- `questionDecomposition.py` Code for first step, decompose the question.<br/>
+- `ImageSelection.py`: Code for second step, top-k image selection.<br/>
+- `answerGeneration.py`: Code for last step, generate the final answer.<br/>
+- `config.yaml`: Store the path to data location.py<br/>
+- `datagen.py`: Code for dataloader<br/>
+- `main.py`: Main function responsible forrun the pipeline.<br/>
+- `metric.py`:  Define functions to calculate accurracy.<br/>
+- `mmqa_utils.py`: and`utils.py` Utils for metric.py<br/>
+- `openai_metrics.ipynb`: Code to convert the final answer to clean format.<br/>
+- `questionDecomposition.py`: Code for first step, decompose the question.<br/>
 
 
 ## Datasets
